@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planopoly Interactive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Planopoly Interactive</h1>
+    <p>Améliorez vos compétences en gestion de projet tout en jouant !</p>
+</header>
+
+<main>
+    <section class="game-board">
+        <div class="board">
+            <!-- Simple grid-based board -->
+            <div class="cell" id="cell-0">Start</div>
+            <div class="cell" id="cell-1">Aléa</div>
+            <div class="cell" id="cell-2">Opportunité</div>
+            <div class="cell" id="cell-3">Risque</div>
+            <div class="cell" id="cell-4">Avantage</div>
+        </div>
+        <div class="controls">
+            <button id="roll-dice">Lancer les dés</button>
+            <p id="dice-result">Résultat : -</p>
+            <p id="player-position">Position actuelle : 0</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Créé par l'équipe Equans | Hébergé sur GitHub</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
